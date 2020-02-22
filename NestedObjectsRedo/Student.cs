@@ -28,5 +28,10 @@ namespace NestedObjectsRedo
         /// </summary>
         [DataType(DataType.Date)]
         public DateTime? DateOfBirth { get; set; }
+
+        /// <summary>
+        /// Student's current enrollment course schedule.
+        /// </summary>
+        public List<Course> Schedule { get; set; }
     }
 }
